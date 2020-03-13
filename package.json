@@ -1,0 +1,24 @@
+{
+  "name": "project-cabbage-chair-dev",
+  "version": "1.0.0",
+  "description": "Projet de Dev Front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerta-Carton/project-cabbage-chair-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kerta-Carton/project-cabbage-chair-dev/issues"
+  },
+  "homepage": "https://github.com/Kerta-Carton/project-cabbage-chair-dev#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
