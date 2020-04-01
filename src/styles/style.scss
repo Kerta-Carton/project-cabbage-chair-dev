@@ -2,10 +2,12 @@
 @import url(./reset.scss);
 @import url(./header.scss);
 @import url(./homepage.scss);
+@import url(./creator.scss);
 
 * {
     box-sizing: border-box;
     color: #fbf5f3;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
