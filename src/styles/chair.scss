@@ -1,0 +1,54 @@
+.chair {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chair__title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 200%;
+    background-color: rgba($color: #bebeea, $alpha: 0.7) ;
+    text-align: center;
+    width: 80%;
+    margin: 4vh 0;
+}
+
+.chair__images {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vh
+}
+
+.images__element {
+    height: 25vh;
+    width: 25vh;
+}
+
+.chair__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #bebeea;
+    padding: 2vh;
+    margin: 2vh 2vh;
+}
+
+.data__element {
+    margin-bottom: 1vh;
+}
+.data__important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.chair__summary {
+    margin-top: 2vh;
+    text-align: justify;
+    width: 80%;
+    line-height:1.1;
+}
