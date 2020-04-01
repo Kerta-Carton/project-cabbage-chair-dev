@@ -23,16 +23,6 @@ body {
 }
 
 
-nav {
-    grid-area: nav;
-    background-color: grey;
-    height: 50px;
-    width: 50px;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-right: 1vw;
-}
-
 main {
     display: flex;
     flex-direction: column;
