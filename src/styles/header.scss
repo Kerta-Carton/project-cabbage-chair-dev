@@ -1,20 +1,16 @@
-header {
-    grid-area: header;
-    background-color: red;
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top:0;
-    right: 0;
-    width: auto;
 
-}
 
 .items__link{
     list-style-type: none;
+    font-size: 80%;
     color: #464744;
     font-family: 'Playfair Display SC', serif;
     margin: 3vh 0;
+  }
+
+.items__link:hover{
+      transform: scale(1.2);
+      transition-duration: 1s;
   }
 
 .menu__container{
