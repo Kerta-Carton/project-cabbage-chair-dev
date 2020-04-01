@@ -1,0 +1,54 @@
+.creator {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.creator__title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 200%;
+    background-color: rgba($color: #bebeea, $alpha: 0.7) ;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 2vh;
+}
+
+.creator__summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    border: 2px solid #bebeea;
+    padding: 2vh;
+    margin: 2vh 2vh;
+}
+
+.summary__image {
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin-bottom: 2vh;
+
+    img {
+        height: 35vh;
+        width: auto;
+    }
+}
+
+.summary__name {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 150%;
+    margin-bottom: 2vh;
+}
+
+.summary__bio {
+ text-align: justify;
+}
+
+.bio__important {
+    font-weight: bold;
+}
