@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,22 @@
 <body>
     <!--Entête contenant le menu-->
     <header class="header">
-        <nav class="nav">
-         
-       </nav>
+
+      <nav class="menu__container">
+        <divnav id="menuTrigger" class="menu__burger">
+          <span class="bars"></span>
+          <span class="bars"></span>
+          <span class="bars"></span>
+          <span class="bars"></span>
+        </div>
+        <div id="menuItems" class="menu__items">
+          <a class="items__link"> Le créateur </a>
+          <a class="items__link"> The Cabbage Chair </a>
+          <a class="items__link"> Sa production </a>
+          <a class="items__link"> Utilisation </a>
+        </div> 
+      </nav>
+
     </header>
 
 
@@ -23,7 +36,7 @@
         
         <h2 class="homepage__creator"> - By Nendo - </h2>
 
-          <a class="homepage__link" href="#"> Découvrir</a>
+        <a class="homepage__link" href="#"> Découvrir</a>
       </section>
 
     </main>
@@ -32,5 +45,6 @@
     <footer class="footer">
 
     </footer>
+ <script src="assets/js/app.js"></script>
 </body>
 </html>
