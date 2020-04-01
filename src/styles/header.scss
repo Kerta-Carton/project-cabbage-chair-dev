@@ -1,0 +1,11 @@
+header {
+    grid-area: header;
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: auto;
+
+}

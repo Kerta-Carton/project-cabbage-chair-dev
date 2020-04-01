@@ -1,0 +1,48 @@
+.homepage {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./../assets/img/cabbage_chair_transparent.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.homepage__background{
+    height: 75vw;
+    width: 75vw;
+   
+}
+
+.homepage__title {
+    font-size: 200%;
+    background-color: rgba($color: #bebeea, $alpha: 0.7) ;
+  text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    z-index: 999;
+
+}
+
+.homepage__creator {
+    font-size: 150%; 
+    font-family: 'Playfair Display SC', serif;
+    z-index: 999;
+}
+
+.homepage__link {
+    padding: 1.5vh;
+    border: 2px solid #bebeea ;
+    border-radius: 12%;
+    text-decoration: none;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.homepage__link:hover {
+    background-color: #fbf5f3;
+    color: #464744;
+    transition-duration: 2s;
+}
