@@ -1,4 +1,33 @@
 
+.chair > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    @media (min-width: 730px) {
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+      
+    }
+
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (min-width: 730px) {
+        height: 50%vh;
+        width: 50%;
+      
+    }
+}
 
 .chair__title {
     font-family: 'Playfair Display SC', serif;
@@ -7,18 +36,31 @@
     text-align: center;
     width: 80%;
     margin: 4vh 0;
+
+    @media (min-width: 730px) {
+   
+        width: auto;
+    }
 }
 
 .chair__images {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2vh
+    grid-gap: 2vh;
+
 }
 
 .images__element {
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
+
+    @media (min-width: 930px) {
+        
+        height: 30vh;
+        width: 30vh;
+      
+    }
 }
 
 .chair__data {
@@ -29,6 +71,7 @@
     border: 2px solid #bebeea;
     padding: 2vh;
     margin: 2vh 2vh;
+    width: 80%;
 }
 
 .data__element {

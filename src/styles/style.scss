@@ -14,6 +14,7 @@
     box-sizing: border-box;
     color: #fbf5f3;
     font-family: 'Nunito', sans-serif;
+
 }
 
 
@@ -40,11 +41,16 @@ section {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    @media (min-width : 730px){
+        height: 100vh;
+    }
 }
 
 
 main {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -60,8 +66,3 @@ footer {
 
 }
 
-@mixin medium {
-    @media (min-width: 768px) {
-      @content;
-    }
-  }

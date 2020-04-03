@@ -1,4 +1,18 @@
 
+.creator div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (min-width: 730px) {
+        
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+      
+    }
+}
 
 .creator__title {
     font-family: 'Playfair Display SC', serif;
@@ -7,6 +21,11 @@
   text-align: center;
   width: 80%;
   margin: 2vh 0;
+  
+  @media (min-width: 730px) {
+   
+    width: auto;
+}
 }
 
 .creator__summary {
@@ -18,6 +37,12 @@
     border: 2px solid #bebeea;
     padding: 2vh;
     margin: 2vh 2vh;
+
+    @media (min-width: 730px) {
+        height:max-content  ;
+        width: 45%;
+    }
+    
 }
 
 .summary__image {
@@ -40,6 +65,10 @@
 
 .summary__bio {
  text-align: justify;
+ @media (min-width: 730px) {
+  
+    width: 65%;
+}
 }
 
 .bio__important {
