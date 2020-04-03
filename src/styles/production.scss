@@ -1,0 +1,34 @@
+.production {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.production__title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 200%;
+    background-color: rgba($color: #bebeea, $alpha: 0.7) ;
+  text-align: center;
+  width: 80%;
+  margin: 2vh 0;
+}
+
+.production div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.production__image {
+    height: 50vh;
+    width: auto;
+    margin: 3vh 0;
+}
+
+.production__text {
+    text-align: justify;
+    width: 80%;
+}
