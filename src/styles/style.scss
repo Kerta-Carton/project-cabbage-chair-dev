@@ -1,16 +1,25 @@
 
+@import url(./mixins.scss);
 @import url(./reset.scss);
+
 @import url(./header.scss);
 @import url(./homepage.scss);
 @import url(./creator.scss);
 @import url(./chair.scss);
 @import url(./production.scss);
+@import url(./use.scss);
+@import url(./footer.scss);
+
+
 
 * {
     box-sizing: border-box;
     color: #fbf5f3;
     font-family: 'Nunito', sans-serif;
 }
+
+
+  
 
 body {
     background-color: #464744;
@@ -49,6 +58,12 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: blue;
+    
 
 }
+
+@mixin medium {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
