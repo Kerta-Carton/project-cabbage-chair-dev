@@ -45,19 +45,23 @@
     
 }
 
-.creator__summary:hover {
-    background-color: rgba($color: #fbf5f3, $alpha : 0.5) ;
-    transition-duration: 2s;
-
-.summary__name {
-    color: #464744;
-    transition-duration: 1s;
+@media (min-width:900px) {
+    .creator__summary:hover {
+        background-color: rgba($color: #fbf5f3, $alpha : 0.5) ;
+        transition-duration: 2s;
+    
+    .summary__name {
+        color: #464744;
+        transition-duration: 1s;
+    }
+    
+    .summary__bio {
+        color: #464744;
+        transition-duration: 1s;
+    }
 }
 
-.summary__bio {
-    color: #464744;
-    transition-duration: 1s;
-}
+
 
 }
 .summary__image {
